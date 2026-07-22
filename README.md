@@ -81,8 +81,8 @@ Keyword-based replies for greetings, help/menu, group rules, and thank-you messa
 ## 📥 Installation
 
 ```bash
-git clone <your-repo-url>
-cd whatsapp-admin-access-bot
+git clone https://github.com/GWSDeveloper/HCO-v2-bot-wp.git
+cd HCO-v2-bot-wp
 npm install
 cp .env.example .env
 # edit .env and fill in your real keys
@@ -91,6 +91,10 @@ cp .env.example .env
 ### Configure API keys
 
 Edit `.env`:
+
+```bash
+nano .env
+```
 
 ```env
 OCR_API_KEY=your_ocr_space_api_key_here

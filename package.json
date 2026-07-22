@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-admin-access-bot",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "axios": "^1.18.1",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.6",
+    "pino": "^10.3.1"
+  }
+}
